@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.zip
+.venv/
+venv/
+
+# Data files (often large or sensitive - don't commit raw/output data)
+data/*.csv
+output/cleaned/*.csv
+output/curated/*.csv
+
+# Environment / config secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
