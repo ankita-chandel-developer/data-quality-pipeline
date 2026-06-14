@@ -7,7 +7,7 @@ __pycache__/
 venv/
 
 # Data files (often large or sensitive - don't commit raw/output data)
-data/raw/*.csv
+data/*.csv
 output/cleaned/*.csv
 output/curated/*.csv
 
